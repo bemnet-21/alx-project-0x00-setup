@@ -3,10 +3,10 @@ import React from 'react'
 
 const Button: React.FC<ButtonProps> = ({
     title,
-    style
+    styles
 }) => {
   return (
-    <button className={style}>{title}</button>
+    <button className={styles}>{title}</button>
   )
 }
 
